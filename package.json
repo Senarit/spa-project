@@ -2,6 +2,7 @@
   "name": "spa-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Senarit.github.io/spa-project",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -13,7 +14,6 @@
     "react-router-dom": "^7.6.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.18",
-    "homepage": "https://Senarit.github.io/spa-project",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
