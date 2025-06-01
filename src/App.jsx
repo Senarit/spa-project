@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutMe from './pages/AboutMe';
@@ -7,7 +7,7 @@ import MyFuture from './pages/MyFuture';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Navigate to="/about" />} />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/my-future" element={<MyFuture />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
